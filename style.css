@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;600&family=Darker+Grotesque:wght@400;500&family=Noto+Sans&family=Poppins:wght@400;600&family=Teko:wght@300&display=swap');
+
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+font-family: 'Teko', sans-serif;
+ 
+letter-spacing: 0.3em;
+
+}
+html{
+    background-color: rgb(12, 12, 12);
+}
+.container {
+    display: flex;
+    min-width: 50vw;
+   
+    height: 100vh;
+  margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   padding-top: 3em;
+   height: 100vh;
+}
+
+.container h1 { 
+    color: #c3ae17;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4em;
+    color: #454444;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width:150px;
+    margin-right: 10px;
+    color: #323232;
+}
+
+.separator{
+    padding: 0 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#startBtn{
+    background-color: #086483;
+    color: #fff;
+}
+
+#pauseBtn{
+    background-color: #dcbe13;
+    color: #fff;
+}
+
+
+#resumeBtn{
+    background-color: #089b12;
+    color: #fff;
+}
+
+#pauseBtn, #resumeBtn{
+    display: none;
+}
